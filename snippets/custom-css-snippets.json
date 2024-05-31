@@ -1,0 +1,18 @@
+{
+    "Text Red": {
+      "prefix": "text-red",
+      "body": ["text-red"],
+      "description": "Apply red text color"
+    },
+    "Background Blue": {
+      "prefix": "bg-blue",
+      "body": ["bg-blue"],
+      "description": "Apply blue background color"
+    },
+    "Padding 10": {
+      "prefix": "p-10",
+      "body": ["p-10"],
+      "description": "Apply padding of 10px"
+    }
+  }
+  
