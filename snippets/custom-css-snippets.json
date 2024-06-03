@@ -1,18 +1,388 @@
 {
-    "Text Red": {
-      "prefix": "text-red",
-      "body": ["text-red"],
-      "description": "Apply red text color"
+  "Text Red": {
+    "prefix": "text-red",
+    "body": ["text-red"],
+    "description": "Apply red text color"
+  },
+  "Background Blue": {
+    "prefix": "bg-blue",
+    "body": ["bg-blue"],
+    "description": "Apply blue background color"
+  },
+  "Padding 10": {
+    "prefix": "p-10",
+    "body": ["p-10"],
+    "description": "Apply padding of 10px"
+  },
+  "Margin 10": {
+    "prefix": "my-10",
+    "body": ["my-10"],
+    "description": "Apply margin of 10px"
+  },
+  "body styling": {
+    "prefix": "body",
+    "body": ["body"],
+    "description": "body styling"
+  },
+  "table styling": {
+    "prefix": "table",
+    "body": ["table"],
+    "description": "table styling"
+  },
+  "img styling": {
+    "prefix": "img",
+    "body": ["img"],
+    "description": "img styling"
+  },
+  "bg-white-styling": {
+    "prefix": "bg-white",
+    "body": ["bg-white"],
+    "description": "bg white styling"
+  },
+  "bg-gray-styling": {
+    "prefix": "bg-gray",
+    "body": ["bg-gray"],
+    "description": "bg gray styling"
+  },
+  "text-white-styling": {
+    "prefix": "txt-white",
+    "body": ["txt-white"],
+    "description": "text-white styling"
+  },
+  "text-black-styling": {
+    "prefix": "txt-black",
+    "body": ["txt-black"],
+    "description": "text-black styling"
+  },
+  "text-underline-styling": {
+    "prefix": "underline",
+    "body": ["underline"],
+    "description": "text-black styling"
+  },
+  "perheader-styling": {
+    "prefix": "preheader",
+    "body": ["text-underline"],
+    "description": "text-black styling"
+  },
+  "d-inline-block -styling": {
+    "prefix": "d-inline-block ",
+    "body": ["d-inline-block "],
+    "description": "d-inline-block  styling"
+  },
+  "@media screen and (max-width: 480px)": {
+    "body-background-white": {
+      "prefix": "body-background-white",
+      "body": ["body-background-white"],
+      "description": "Body background color white for screen max-width 480px"
     },
-    "Background Blue": {
-      "prefix": "bg-blue",
-      "body": ["bg-blue"],
-      "description": "Apply blue background color"
+    "mx-auto": {
+      "prefix": "sm:mx-auto",
+      "body": ["sm:mx-auto"],
+      "description": "Margin auto for screen max-width 480px"
     },
-    "Padding 10": {
-      "prefix": "p-10",
-      "body": ["p-10"],
-      "description": "Apply padding of 10px"
+    "p-0": {
+      "prefix": "sm:p-0",
+      "body": ["sm:p-0"],
+      "description": "Padding 0 for screen max-width 480px"
+    },
+    "p-5": {
+      "prefix": "sm:p-5",
+      "body": ["sm:p-5"],
+      "description": "Padding 5px for screen max-width 480px"
+    },
+    "p-10": {
+      "prefix": "sm:p-10",
+      "body": ["sm:p-10"],
+      "description": "Padding 10px for screen max-width 480px"
+    },
+    "p-15": {
+      "prefix": "sm:p-15",
+      "body": ["sm:p-15"],
+      "description": "Padding 15px for screen max-width 480px"
+    },
+    "p-20": {
+      "prefix": "sm:p-20",
+      "body": ["sm:p-20"],
+      "description": "Padding 20px for screen max-width 480px"
+    },
+    "p-25": {
+      "prefix": "sm:p-25",
+      "body": ["sm:p-25"],
+      "description": "Padding 25px for screen max-width 480px"
+    },
+    "p-30": {
+      "prefix": "sm:p-30",
+      "body": ["sm:p-30"],
+      "description": "Padding 30px for screen max-width 480px"
+    },
+    "px-0": {
+      "prefix": "sm:px-0",
+      "body": ["sm:px-0"],
+      "description": "Padding left and right 0 for screen max-width 480px"
+    },
+    "px-5": {
+      "prefix": "sm:px-5",
+      "body": [
+        "sm:px-5"
+      ],
+      "description": "Padding left and right 5px for screen max-width 480px"
+    },
+    "px-10": {
+      "prefix": "sm:px-10",
+      "body": [
+        "sm:px-10"
+      ],
+      "description": "Padding left and right 10px for screen max-width 480px"
+    },
+    "px-15": {
+      "prefix": "sm:px-15",
+      "body": [
+        "sm:px-15"
+      ],
+      "description": "Padding left and right 15px for screen max-width 480px"
+    },
+    "px-20": {
+      "prefix": "sm:px-20",
+      "body": [
+        "sm:px-20"
+      ],
+      "description": "Padding left and right 20px for screen max-width 480px"
+    },
+    "px-25": {
+      "prefix": "sm:px-25",
+      "body": [
+        "sm:px-25"
+      ],
+      "description": "Padding left and right 25px for screen max-width 480px"
+    },
+    "px-30": {
+      "prefix": "sm:px-30",
+      "body": [
+        "sm:px-30"
+      ],
+      "description": "Padding left and right 30px for screen max-width 480px"
+    },
+    "py-0": {
+      "prefix": "sm:py-0",
+      "body": ["sm:py-0"],
+      "description": "Padding top and bottom 0 for screen max-width 480px"
+    },
+    "py-5": {
+      "prefix": "sm:py-5",
+      "body": [
+        "sm:py-0"
+      ],
+      "description": "Padding top and bottom 5px for screen max-width 480px"
+    },
+    "py-10": {
+      "prefix": "sm:py-10",
+      "body": [
+        "sm:py-10"
+      ],
+      "description": "Padding top and bottom 10px for screen max-width 480px"
+    },
+    "py-15": {
+      "prefix": "sm:py-15",
+      "body": [
+        "sm:py-15"
+      ],
+      "description": "Padding top and bottom 15px for screen max-width 480px"
+    },
+    "py-20": {
+      "prefix": "sm:py-20",
+      "body": [
+        "sm:py-20"
+      ],
+      "description": "Padding top and bottom 20px for screen max-width 480px"
+    },
+    "py-25": {
+      "prefix": "sm:py-25",
+      "body": [
+        "sm:py-25"
+      ],
+      "description": "Padding top and bottom 25px for screen max-width 480px"
+    },
+    "py-30": {
+      "prefix": "sm:py-30",
+      "body": [
+        "sm:py-30"
+      ],
+      "description": "Padding top and bottom 30px for screen max-width 480px"
+    },
+    "pt-0": {
+      "prefix": "sm:pt-0",
+      "body": ["sm:pt-0"],
+      "description": "Padding top 0 for screen max-width 480px"
+    },
+    "pt-5": {
+      "prefix": "sm:pt-5",
+      "body": ["sm:pt-5"],
+      "description": "Padding top 5px for screen max-width 480px"
+    },
+    "pt-10": {
+      "prefix": "sm:pt-10",
+      "body": ["sm:pt-10"],
+      "description": "Padding top 10px for screen max-width 480px"
+    },
+    "pt-15": {
+      "prefix": "sm:pt-15",
+      "body": ["sm:pt-15"],
+      "description": "Padding top 15px for screen max-width 480px"
+    },
+    "pt-20": {
+      "prefix": "sm:pt-20",
+      "body": ["sm:pt-20"],
+      "description": "Padding top 20px for screen max-width 480px"
+    },
+    "pt-25": {
+      "prefix": "sm:pt-25",
+      "body": ["sm:pt-25"],
+      "description": "Padding top 25px for screen max-width 480px"
+    },
+    "pt-30": {
+      "prefix": "sm:pt-30",
+      "body": ["sm:pt-30"],
+      "description": "Padding top 30px for screen max-width 480px"
+    },
+    "pr-0": {
+      "prefix": "sm:pr-0",
+      "body": ["sm:pr-0"],
+      "description": "Padding right 0 for screen max-width 480px"
+    },
+    "pr-5": {
+      "prefix": "sm:pr-5",
+      "body": ["sm:pr-5"],
+      "description": "Padding right 5px for screen max-width 480px"
+    },
+    "pr-10": {
+      "prefix": "sm:pr-10",
+      "body": ["sm:pr-10"],
+      "description": "Padding right 10px for screen max-width 480px"
+    },
+    "pr-15": {
+      "prefix": "sm:pr-15",
+      "body": ["sm:pr-15"],
+      "description": "Padding right 15px for screen max-width 480px"
+    },
+    "pr-20": {
+      "prefix": "sm:pr-20",
+      "body": ["sm:pr-20"],
+      "description": "Padding right 20px for screen max-width 480px"
+    },
+    "pr-25": {
+      "prefix": "sm:pr-25",
+      "body": ["sm:pr-25"],
+      "description": "Padding right 25px for screen max-width 480px"
+    },
+    "pr-30": {
+      "prefix": "sm:pr-30",
+      "body": ["sm:pr-30"],
+      "description": "Padding right 30px for screen max-width 480px"
+    },
+    "pb-0": {
+      "prefix": "sm:pb-0",
+      "body": ["sm:pb-0"],
+      "description": "Padding bottom 0 for screen max-width 480px"
+    },
+    "pb-5": {
+      "prefix": "sm:pb-5",
+      "body": ["sm:pb-5"],
+      "description": "Padding bottom 5px for screen max-width 480px"
+    },
+    "pb-10": {
+      "prefix": "sm:pb-10",
+      "body": ["sm:pb-10"],
+      "description": "Padding bottom 10px for screen max-width 480px"
+    },
+    "pb-15": {
+      "prefix": "sm:pb-15",
+      "body": ["sm:pb-15"],
+      "description": "Padding bottom 15px for screen max-width 480px"
+    },
+    "pb-20": {
+      "prefix": "sm:pb-20",
+      "body": ["sm:pb-20"],
+      "description": "Padding bottom 20px for screen max-width 480px"
+    },
+    "pb-25": {
+      "prefix": "sm:pb-25",
+      "body": ["sm:pb-25"],
+      "description": "Padding bottom 25px for screen max-width 480px"
+    },
+    "pb-30": {
+      "prefix": "sm:pb-30",
+      "body": ["sm:pb-30"],
+      "description": "Padding bottom 30px for screen max-width 480px"
+    },
+    "pl-0": {
+      "prefix": "sm:pl-0",
+      "body": ["sm:pl-0"],
+      "description": "Padding left 0 for screen max-width 480px"
+    },
+    "pl-5": {
+      "prefix": "sm:pl-5",
+      "body": ["sm:pl-5"],
+      "description": "Padding left 5px for screen max-width 480px"
+    },
+    "pl-10": {
+      "prefix": "sm:pl-10",
+      "body": ["sm:pl-10"],
+      "description": "Padding left 10px for screen max-width 480px"
+    },
+    "pl-15": {
+      "prefix": "sm:pl-15",
+      "body": ["sm:pl-15"],
+      "description": "Padding left 15px for screen max-width 480px"
+    },
+    "pl-20": {
+      "prefix": "sm:pl-20",
+      "body": ["sm:pl-20"],
+      "description": "Padding left 20px for screen max-width 480px"
+    },
+    "pl-25": {
+      "prefix": "sm:pl-25",
+      "body": ["sm:pl-25"],
+      "description": "Padding left 25px for screen max-width 480px"
+    },
+    "pl-30": {
+      "prefix": "sm:pl-30",
+      "body": ["sm:pl-30"],
+      "description": "Padding left 30px for screen max-width 480px"
+    },
+    "w-5": {
+      "prefix": "sm:w-5",
+      "body": ["sm:w-5"],
+      "description": "Width 5% for screen max-width 480px"
+    },
+    "w-10": {
+      "prefix": "sm:w-10",
+      "body": ["sm:w-10"],
+      "description": "Width 10% for screen max-width 480px"
+    },
+    "w-15": {
+      "prefix": "sm:w-15",
+      "body": ["sm:w-15"],
+      "description": "Width 15% for screen max-width 480px"
+    },
+    "w-20": {
+      "prefix": "sm:w-20",
+      "body": ["sm:w-20"],
+      "description": "Width 20% for screen max-width 480px"
+    },
+    "w-30": {
+      "prefix": "sm:w-30",
+      "body": ["sm:w-30"],
+      "description": "Width 30% for screen max-width 480px"
+    },
+    "w-40": {
+      "prefix": "sm:w-40",
+      "body": ["sm:w-40"],
+      "description": "Width 40% for screen max-width 480px"
+    },
+    "w-50": {
+      "prefix": "sm:w-50",
+      "body": ["sm:w-50"],
+      "description": "Width 50% for screen max-width 480px"
     }
   }
-  
+}
