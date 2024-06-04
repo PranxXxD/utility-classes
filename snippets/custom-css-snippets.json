@@ -64,12 +64,12 @@
     "body": ["text-underline"],
     "description": "text-black styling"
   },
-  "d-inline-block -styling": {
+  "d-inline-block-styling": {
     "prefix": "d-inline-block ",
     "body": ["d-inline-block "],
     "description": "d-inline-block  styling"
   },
-  "@media screen and (max-width: 480px)": {
+  "sm": {
     "body-background-white": {
       "prefix": "body-background-white",
       "body": ["body-background-white"],
@@ -383,6 +383,101 @@
       "prefix": "sm:w-50",
       "body": ["sm:w-50"],
       "description": "Width 50% for screen max-width 480px"
+    },
+     "w-60": {
+      "prefix": "sm:w-60",
+      "body": ["sm:w-60"],
+      "description": "Width 60% for screen max-width 480px"
+    },
+     "w-70": {
+      "prefix": "sm:w-70",
+      "body": ["sm:w-70"],
+      "description": "Width 70% for screen max-width 480px"
+    },
+     "w-80": {
+      "prefix": "sm:w-80",
+      "body": ["sm:w-80"],
+      "description": "Width 80% for screen max-width 480px"
+    },
+     "w-90": {
+      "prefix": "sm:w-90",
+      "body": ["sm:w-90"],
+      "description": "Width 90% for screen max-width 480px"
+    },
+     "w-100": {
+      "prefix": "sm:w-100",
+      "body": ["sm:w-100"],
+      "description": "Width 100% for screen max-width 480px"
+    },
+     "fs-9": {
+      "prefix": "sm:fs-9",
+      "body": ["sm:fs-9"],
+      "description": "Font-Size 9px for screen max-width 480px"
+    },
+     "fs-10": {
+      "prefix": "sm:fs-10",
+      "body": ["sm:fs-10"],
+      "description": "Font-Size 10px for screen max-width 480px"
+    },
+     "fs-11": {
+      "prefix": "sm:fs-11",
+      "body": ["sm:fs-11"],
+      "description": "Font-Size 11px for screen max-width 480px"
+    },
+     "fs-12": {
+      "prefix": "sm:fs-12",
+      "body": ["sm:fs-12"],
+      "description": "Font-Size 12px for screen max-width 480px"
+    },
+     "fs-13": {
+      "prefix": "sm:fs-13",
+      "body": ["sm:fs-13"],
+      "description": "Font-Size 13px for screen max-width 480px"
+    },
+     "fs-14": {
+      "prefix": "sm:fs-14",
+      "body": ["sm:fs-14"],
+      "description": "Font-Size 14px for screen max-width 480px"
+    },
+     "fs-15": {
+      "prefix": "sm:fs-15",
+      "body": ["sm:fs-15"],
+      "description": "Font-Size 15px for screen max-width 480px"
+    },
+     "fs-16": {
+      "prefix": "sm:fs-16",
+      "body": ["sm:fs-16"],
+      "description": "Font-Size 16px for screen max-width 480px"
+    },
+     "fs-17": {
+      "prefix": "sm:fs-17",
+      "body": ["sm:fs-17"],
+      "description": "Font-Size 17px for screen max-width 480px"
+    },
+     "fs-18": {
+      "prefix": "sm:fs-18",
+      "body": ["sm:fs-18"],
+      "description": "Font-Size 18px for screen max-width 480px"
+    },
+     "lh-12": {
+      "prefix": "sm:lh-12",
+      "body": ["sm:lh-12"],
+      "description": "Line-Height of 12px for screen max-width 480px"
+    },
+     "lh-16": {
+      "prefix": "sm:lh-16",
+      "body": ["sm:lh-16"],
+      "description": "Line-Height of 16px for screen max-width 480px"
+    },
+     "d-block": {
+      "prefix": "sm:d-block",
+      "body": ["sm:d-block"],
+      "description": "Display content block for screen max-width 480px"
+    },
+     "sm:d-none": {
+      "prefix": "sm:d-none",
+      "body": ["sm:d-none"],
+      "description": "Display content none for screen max-width 480px"
     }
   }
 }
