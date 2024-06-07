@@ -362,10 +362,10 @@ print and (max-width:552px) {
         line-height: 16px !important;
     }
 
-    .d-block {
+    .sm-d-block {
         display: block !important;
     }
-    .d-none {
+    .sm-d-none {
         display: none !important;
     }
 }
